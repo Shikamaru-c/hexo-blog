@@ -46,6 +46,7 @@ tags: hexo, jenkins, nginx
 1. jenkins 默认会创建一个 jenkins 的用户去使用服务器，因为权限问题，我修改 jenkins 的配置文件，默认使用 root
 2. jenkins 使用 jenkins-shell，丢失了环境变量 PATH，我使用了软连接，ln -s <> /usr/local/bin
 3. nginx 的权限不足的问题，直接修改 user 为 root
+4. jenkins.log 文件巨大，jenkins 工作台 Manage Jenkins -> System Log -> Log Levels (on the left)
 
 ---
 
